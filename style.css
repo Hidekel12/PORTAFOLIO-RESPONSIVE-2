@@ -1,0 +1,259 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-size: 16px;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+
+  margin: auto;
+  overflow: hidden;
+}
+/* encabezado */
+
+header {
+  background: url(/img/4.png);
+  max-height: 600px;
+  background-position: center;
+}
+header .menu {
+  margin: 40px 0;
+  text-align: right;
+}
+header .menu a {
+  margin: 0 20px;
+  color: #ff8b8b;
+  padding-bottom: 9px;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  font-size: 1em;
+}
+
+header .menu a:hover {
+  border-bottom: 2px solid #ff2d2d;
+}
+
+header .contenedor1 {
+  display: flex;
+  margin: 190px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+header .contenedor1 .texto {
+  border: 2px solid rgba(252, 149, 149, 0.5);
+  border-radius: 3px;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 60px;
+}
+
+header .contenedor1 .texto h1,
+header .contenedor1 .texto h2 {
+  color: #ff2d2d;
+  font-weight: 300;
+  margin: 0;
+}
+
+header .contenedor1 .texto h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  line-height: 50px;
+}
+
+.main .contenedor {
+  overflow: visible;
+}
+.main .acerca-de {
+  text-align: center;
+}
+.main .acerca-de .foto {
+  margin-top: -60px;
+}
+
+.main .acerca-de .foto img {
+  vertical-align: top;
+  border-radius: 50%;
+  border: 5px solid rgb(255, 42, 4, 0.5);
+}
+.main .acerca-de .texto {
+  color: #ff8b8b;
+  font-weight: 600;
+  margin: 40px auto 60px auto;
+  font-size: 1em;
+  line-height: 30px;
+  width: 80%;
+}
+.main .acerca-de .texto bold {
+  color: black;
+}
+.main .acerca-de h3 {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: black;
+}
+.main .Trabajos {
+  background-color: #ffd2d2;
+  padding: 60px 0;
+}
+.main .Trabajos .contenedor {
+  overflow: hidden;
+}
+.main .Trabajos .titulos {
+  color: #ff8b8b;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  letter-spacing: 10px;
+}
+
+.main .Trabajos .contenedor-trabajo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main .Trabajos .contenedor-trabajo .WORK {
+  width: 23%;
+}
+.main .Trabajos .contenedor-trabajo .WORK .wk {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.main .Trabajos .contenedor-trabajo .WORK .wk img {
+  width: 100%;
+  border-radius: 3px;
+
+  vertical-align: top;
+}
+.main .Trabajos .contenedor-trabajo .description {
+  text-align: center;
+}
+.main .Trabajos .contenedor-trabajo .description .NOMBRE {
+  color: #ff2d2d;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+footer .contact {
+  padding: 60px 0;
+}
+
+footer .contact .texto {
+  text-transform: uppercase;
+  color: #ff8b8b;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+  letter-spacing: 10px;
+  font-weight: 300;
+}
+
+footer .contact .formulario {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .contact .formulario input[type="text"],
+footer .contact .formulario input[type="email"],
+footer .contact .formulario textarea {
+  border: 2px solid #cecece;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 20px;
+  color: #a4a4a4;
+}
+footer .contact .formulario input[type="text"],
+footer .contact .formulario input[type="email"] {
+  width: 49%;
+  margin-bottom: 15px;
+}
+footer .contact .formulario textarea {
+  width: 100%;
+  height: 100%;
+  min-height: 100px;
+  max-height: 300px;
+  min-width: 100%;
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+footer .contact .formulario .button {
+  margin: auto;
+  background: #ff8b8b;
+  border: none;
+  border-radius: 3px;
+  padding: 15px 40px;
+  cursor: pointer;
+  color: #cecece;
+  text-transform: uppercase;
+}
+
+footer .contact .formulario .button:hover {
+  background-color: rgb(235, 47, 47, 0.2);
+  color: rgb(255, 0, 0);
+}
+
+footer .contact .formulario input[type="text"]:focus,
+footer .contact .formulario input[type="email"]:focus,
+footer .contact .formulario textarea:focus {
+  border: 4px solid #ff8484;
+}
+
+footer .social-medias {
+  background-image: url(/img/4.png);
+  padding: 60px 0;
+}
+
+footer section .contenedor {
+  display: flex;
+  justify-content: center;
+}
+footer .social-medias a {
+  color: #fff;
+  text-align: center;
+  width: 100px;
+  display: block;
+  padding: 15px 0;
+  border-radius: 3px;
+  font-size: 30px;
+  background: #f79797;
+  margin: 0 20px;
+}
+footer .social-medias .github:hover {
+  background: #333;
+}
+footer .social-medias .facebook:hover {
+  background: #1877f2;
+}
+
+footer .social-medias .twitter:hover {
+  background: #1da1f2;
+}
+footer .social-medias .youtube:hover {
+  background: #ff0000;
+}
+
+@media screen AND (max-width: 800px) {
+  HEADER .menu {
+    text-align: center;
+  }
+
+  .main .Trabajos .contenedor-trabajo .contenedor {
+    width: 46%;
+  }
+}
+
+@media SCREEN AND (max-width: 500px) {
+  header .contenedor1 .texto {
+    font-size: 10px;
+  }
+}
